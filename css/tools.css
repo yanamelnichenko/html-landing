@@ -1,9 +1,31 @@
 .tools {
-    background-color: rgb(216, 216, 230);
+    background-color: rgb(182, 182, 251);
+}
+
+.tools-conatiner{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    text-align: center;
+    justify-content: center;
 }
 
-class="tools-design"
+.tools-container-item{
+    margin: 5px;
+    border: solid;
+    border-color: rgb(0, 81, 255);
+    box-shadow: 5px;
+}
+
+.figure-with-caption{
+    width: min-content
+}
+
+img {
+    height:200px;
+    width: auto;
+}
+
+.fig-caption{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}

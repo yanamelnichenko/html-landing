@@ -1,0 +1,21 @@
+.work-unit{
+    display: flex;
+    padding: 20px 0 20px 0;
+    border:solid;
+    border-color: gray;
+    border-bottom: 2px;
+}
+
+.company-image{
+    width: 200px;
+    height: auto;
+}
+
+.work-range{
+    padding: 0 15px 0 15px;
+    text-align: center;
+}
+
+.work-details{
+    padding-left: 30px;
+}

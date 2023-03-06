@@ -1,14 +1,32 @@
 .skills {
-    background-color: rgb(214, 212, 253);
+    background-color: rgb(227, 226, 249);
 }
 
 .skills-conatiner{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-.skills-design {
-margin: 30px, 30px, 30px, 30px;
-text-align: center;
+.skills-container-item{
+    margin: 5px;
+    border: solid;
+    border-color: rgb(0, 81, 255);
+    box-shadow: 5px;
+}
+
+.figure-with-caption{
+    width: min-content
+}
+
+img {
+    height:200px;
+    width: auto;
+}
+
+.fig-caption{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }

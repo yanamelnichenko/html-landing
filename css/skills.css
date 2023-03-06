@@ -1,0 +1,14 @@
+.skills {
+    background-color: rgb(214, 212, 253);
+}
+
+.skills-conatiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills-design {
+margin: 30px, 30px, 30px, 30px;
+text-align: center;
+}

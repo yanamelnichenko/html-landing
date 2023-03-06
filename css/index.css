@@ -1,2 +1,6 @@
 @import './common.css';
 @import './footer.css';
+@import url(skills.css);
+@import url(title.css);
+@import url(hobby.css);
+@import url(tools.css);
